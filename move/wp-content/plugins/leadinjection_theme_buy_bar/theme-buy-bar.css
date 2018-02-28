@@ -1,0 +1,26 @@
+#leadinjection_theme_buy_bar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #262626;
+    z-index: 9999;
+    top: 0;
+    padding: 12px 15px 0 10px;
+}
+
+.li-tbb-logo{
+    margin: 5px 0 0 10px;
+}
+
+.li-tbb-buy-button{
+    margin: 0;
+    padding: 6px 18px 6px !important;
+    height: 36px !important;
+}
+
+.li-tbb-remove-bar{
+    margin-left: 5px !important;
+    font-weight: bold !important;
+    padding: 6px 18px 6px !important;
+    height: 36px !important;
+}
