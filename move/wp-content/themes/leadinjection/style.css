@@ -9189,7 +9189,10 @@ div.wpcf7 .placeheld {
     /* Above WP toolbar. */
 }
 
-
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
 
 
 
