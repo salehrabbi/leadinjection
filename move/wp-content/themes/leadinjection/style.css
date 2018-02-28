@@ -9400,8 +9400,8 @@ div.wpcf7 .placeheld {
 
 
 .about_area {
-	background: #f5f7f9;
 	padding: 100px 0;
+    padding-bottom: 0;
 }
 .single_title {
 	font-size: 30px;
