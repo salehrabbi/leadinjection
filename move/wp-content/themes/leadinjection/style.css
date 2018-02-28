@@ -64,11 +64,16 @@
 *  Helper Classes
 *
 */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 01. Defaults */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Clearings
 -------------------------------------*/
+
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -96,6 +101,7 @@
 
 /* Defaults Configs
 -------------------------------------*/
+
 html {
     overflow-y: scroll;
 }
@@ -111,7 +117,12 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 400;
 }
 
@@ -198,6 +209,7 @@ blockquote {
 
 /* Defaults Visual Composer
 -------------------------------------*/
+
 .row_default,
 .row_stretched {
     max-width: 1170px;
@@ -205,12 +217,14 @@ blockquote {
     margin-right: auto !important;
 }
 
-.vc_row.wpb_row, .row_style {
+.vc_row.wpb_row,
+.row_style {
     position: relative;
     margin-bottom: 85px;
 }
 
-.vc_row.wpb_row:last-of-type, .row_style:last-of-type {
+.vc_row.wpb_row:last-of-type,
+.row_style:last-of-type {
     margin-bottom: 0;
 }
 
@@ -298,6 +312,7 @@ blockquote {
 
 /* Defaults Preloader
 -------------------------------------*/
+
 .js div#preloader {
     position: fixed;
     left: 0;
@@ -327,7 +342,7 @@ blockquote {
 }
 
 .js div#preloader .loader,
-  .js div#preloader .loader:after {
+.js div#preloader .loader:after {
     border-radius: 50%;
     width: 10em;
     height: 10em;
@@ -359,6 +374,7 @@ blockquote {
 
 /* Default Asides
 -------------------------------------*/
+
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
     display: none;
@@ -366,20 +382,24 @@ blockquote {
 
 /* Default Infinite scroll
 -------------------------------------*/
+
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
+
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
-  /* Theme Footer (when set to scrolling) */
+    /* Theme Footer (when set to scrolling) */
     display: none;
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
 .infinity-end.neverending .site-footer {
     display: block;
 }
 
 /* Default Media
 -------------------------------------*/
+
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -390,6 +410,7 @@ blockquote {
 }
 
 /* Make sure embeds and iframes fit their containers. */
+
 embed,
 iframe,
 object {
@@ -398,6 +419,7 @@ object {
 
 /* Sefault Captions
 -------------------------------------*/
+
 .wp-caption {
     margin-bottom: 1.5em;
     max-width: 100%;
@@ -418,6 +440,7 @@ object {
 
 /* Default Galleries
 -------------------------------------*/
+
 .gallery {
     margin-bottom: 1.5em;
 }
@@ -467,7 +490,9 @@ object {
 
 /* Defaults Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     body {
         font-size: 14px !important;
@@ -481,6 +506,7 @@ object {
 }
 
 /* Medium devices (desktops, 992px and down) */
+
 @media (max-width: 992px) {
     .vc_row.wpb_row {
         position: relative;
@@ -489,6 +515,7 @@ object {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .vc_column_container {
         padding-left: 0;
@@ -502,18 +529,25 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 02. Header */
+
 /*------------------------------------------------------------------------------------------*/
+
 .navbar-default {
     background-color: #fff !important;
     padding-top: 12px;
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 03. Blog */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Default Posts and pages
 -------------------------------------*/
+
 .blog-content-area {
     display: block;
 }
@@ -619,6 +653,7 @@ object {
 
 /* Blog Title
 -------------------------------------*/
+
 .page-title {
     background-color: #428BFF;
     padding-top: 32px;
@@ -660,6 +695,7 @@ object {
 
 /* Blog Post
 -------------------------------------*/
+
 .post {
     margin-top: 75px;
     margin-bottom: 0;
@@ -725,7 +761,10 @@ object {
     text-align: center;
 }
 
-.post .post-audio .mejs-container, .post .post-audio .mejs-container .mejs-controls, .post .post-audio .mejs-embed, .post .post-audio .mejs-embed body {
+.post .post-audio .mejs-container,
+.post .post-audio .mejs-container .mejs-controls,
+.post .post-audio .mejs-embed,
+.post .post-audio .mejs-embed body {
     background: transparent;
 }
 
@@ -960,6 +999,7 @@ object {
 
 /* Blog Edit Link
 -------------------------------------*/
+
 .edit-link {
     line-height: 1;
     font-size: 12px;
@@ -977,6 +1017,7 @@ object {
 
 /* Blog Post Author
 -------------------------------------*/
+
 .author-post {
     margin-top: 35px;
     padding: 20px;
@@ -1019,6 +1060,7 @@ object {
 
 /* Blog Pagination
 -------------------------------------*/
+
 .pagination {
     margin: 0 0 85px 0;
 }
@@ -1062,6 +1104,7 @@ object {
 
 /* Blog Comments
 -------------------------------------*/
+
 .comments-area {
     margin-top: 60px;
     font-size: 16px;
@@ -1242,6 +1285,7 @@ object {
 
 /* Blog Error 404 Page
 -------------------------------------*/
+
 .error-404 {
     margin-top: 85px;
     margin-bottom: 85px;
@@ -1338,6 +1382,7 @@ object {
 
 /* Blog Search
 -------------------------------------*/
+
 .search-result-title {
     font-size: 30px;
     color: #575756;
@@ -1360,7 +1405,7 @@ object {
 }
 
 .search-results .post .entry-title a,
-  .search-results .page .entry-title a {
+.search-results .page .entry-title a {
     color: #33495F;
 }
 
@@ -1416,7 +1461,9 @@ object {
 
 /* Blog Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .blog-content-area.sidebar-right .blog-sidebar-content {
         flex: 0 0 320px;
@@ -1438,7 +1485,7 @@ object {
 
 @media (max-width: 992px) {
     .blog-content-area.sidebar-right,
-  .blog-content-area.sidebar-left {
+    .blog-content-area.sidebar-left {
         display: block;
     }
 
@@ -1448,12 +1495,12 @@ object {
     }
 
     .blog-content-area.sidebar-right .blog-main-content:before,
-      .blog-content-area.sidebar-left .blog-main-content:before {
+    .blog-content-area.sidebar-left .blog-main-content:before {
         box-shadow: none;
     }
 
     .blog-content-area.sidebar-right .blog-main-content:after,
-      .blog-content-area.sidebar-left .blog-main-content:after {
+    .blog-content-area.sidebar-left .blog-main-content:after {
         box-shadow: none;
     }
 
@@ -1473,7 +1520,7 @@ object {
 }
 
 @media (max-width: 768px) {
-  /* Blog Title
+    /* Blog Title
 -------------------------------------*/
     .page-title {
         padding-top: 20px;
@@ -1492,8 +1539,11 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 04. Widgets */
+
 /*------------------------------------------------------------------------------------------*/
+
 .widget {
     margin-bottom: 40px;
 }
@@ -1558,12 +1608,14 @@ object {
 
 /* Select elements fit in widgets
 -------------------------------------*/
+
 .widget select {
     max-width: 100%;
 }
 
 /* Search Widget
 -----------------------------------*/
+
 .widget_search form {
     position: relative;
 }
@@ -1650,6 +1702,7 @@ object {
 
 /* Calendar Widget
 -----------------------------------*/
+
 #wp-calendar {
     width: 100%;
 }
@@ -1715,6 +1768,7 @@ object {
 
 /* Recent Posts Widget
 -------------------------------------*/
+
 .widget_recent_entries ul li .post-date {
     font-size: 12px;
     padding-left: 5px;
@@ -1725,6 +1779,7 @@ object {
 
 /* Recent Comments Widget
 -------------------------------------*/
+
 .widget_recent_comments ul li {
     padding-left: 5px;
     font-size: 12px;
@@ -1749,9 +1804,17 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 05. Footer */
+
 /*------------------------------------------------------------------------------------------*/
-.li-footer h1, .li-footer h2, .li-footer h3, .li-footer h4, .li-footer h5, .li-footer h6 {
+
+.li-footer h1,
+.li-footer h2,
+.li-footer h3,
+.li-footer h4,
+.li-footer h5,
+.li-footer h6 {
     margin-top: 0;
     color: #428BFF;
 }
@@ -1868,7 +1931,9 @@ object {
 
 /* Footer Media Queries
 -------------------------------------*/
+
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .li-footer .footer-copyright {
         text-align: center;
@@ -1881,10 +1946,14 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 06. Buttons */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Button Wrapper
 -------------------------------------*/
+
 .btn-wrapper.inline {
     display: inline-block;
 }
@@ -1903,6 +1972,7 @@ object {
 
 /* Button Styles
 -------------------------------------*/
+
 .btn {
     color: #ffffff;
     background-color: #428BFF;
@@ -2081,6 +2151,7 @@ object {
 
 /* Button Colors
 -------------------------------------*/
+
 .btn-green {
     background-color: #32ba5b;
     transition: all 0.5s ease-out;
@@ -2326,39 +2397,59 @@ object {
     color: #ffffff;
 }
 
-.btn-custom1, .btn-custom2, .btn-custom3, .btn-custom4 {
+.btn-custom1,
+.btn-custom2,
+.btn-custom3,
+.btn-custom4 {
     background-color: #32ba5b;
     transition: all 0.5s ease-out;
 }
 
-.btn-custom1:hover, .btn-custom2:hover, .btn-custom3:hover, .btn-custom4:hover {
+.btn-custom1:hover,
+.btn-custom2:hover,
+.btn-custom3:hover,
+.btn-custom4:hover {
     background-color: #2a9e4d;
     color: #ffffff;
     transition: all 0.2s ease-out;
 }
 
-.btn-custom1:focus, .btn-custom2:focus, .btn-custom3:focus, .btn-custom4:focus {
+.btn-custom1:focus,
+.btn-custom2:focus,
+.btn-custom3:focus,
+.btn-custom4:focus {
     background-color: #1c6a34;
     color: #ffffff;
 }
 
-.btn-custom1.btn-3d, .btn-custom2.btn-3d, .btn-custom3.btn-3d, .btn-custom4.btn-3d {
+.btn-custom1.btn-3d,
+.btn-custom2.btn-3d,
+.btn-custom3.btn-3d,
+.btn-custom4.btn-3d {
     border-bottom-color: #227e3e;
 }
 
-.btn-custom1.btn-outline, .btn-custom2.btn-outline, .btn-custom3.btn-outline, .btn-custom4.btn-outline {
+.btn-custom1.btn-outline,
+.btn-custom2.btn-outline,
+.btn-custom3.btn-outline,
+.btn-custom4.btn-outline {
     border-color: #32ba5b;
     color: #32ba5b;
 }
 
-.btn-custom1.btn-outline:hover, .btn-custom2.btn-outline:hover, .btn-custom3.btn-outline:hover, .btn-custom4.btn-outline:hover {
+.btn-custom1.btn-outline:hover,
+.btn-custom2.btn-outline:hover,
+.btn-custom3.btn-outline:hover,
+.btn-custom4.btn-outline:hover {
     background-color: #32ba5b;
     color: #ffffff;
 }
 
 /* Buttons Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .btn.btn-lg {
         font-size: 18px;
@@ -2378,21 +2469,31 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 07. Accordion */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Accordion Bullets
 -------------------------------------*/
-.li-accordion-bullets, .li-accordion-bullets-cornered, .li-accordion-bullets-round {
+
+.li-accordion-bullets,
+.li-accordion-bullets-cornered,
+.li-accordion-bullets-round {
     margin-bottom: 0px;
 }
 
-.li-accordion-bullets .panel, .li-accordion-bullets-cornered .panel, .li-accordion-bullets-round .panel {
+.li-accordion-bullets .panel,
+.li-accordion-bullets-cornered .panel,
+.li-accordion-bullets-round .panel {
     border-color: #2B4269;
     box-shadow: none;
     background: none;
 }
 
-.li-accordion-bullets .panel-heading, .li-accordion-bullets-cornered .panel-heading, .li-accordion-bullets-round .panel-heading {
+.li-accordion-bullets .panel-heading,
+.li-accordion-bullets-cornered .panel-heading,
+.li-accordion-bullets-round .panel-heading {
     background-color: #2B4269;
     color: #ffffff;
     border-color: #2B4269;
@@ -2401,38 +2502,52 @@ object {
     height: 45px;
 }
 
-.li-accordion-bullets .panel-title, .li-accordion-bullets-cornered .panel-title, .li-accordion-bullets-round .panel-title {
+.li-accordion-bullets .panel-title,
+.li-accordion-bullets-cornered .panel-title,
+.li-accordion-bullets-round .panel-title {
     font-size: 16px;
     line-height: normal;
     color: #ffffff;
 }
 
-.li-accordion-bullets .panel-title-link, .li-accordion-bullets-cornered .panel-title-link, .li-accordion-bullets-round .panel-title-link {
+.li-accordion-bullets .panel-title-link,
+.li-accordion-bullets-cornered .panel-title-link,
+.li-accordion-bullets-round .panel-title-link {
     color: #fff;
 }
 
-.li-accordion-bullets .panel-title-link:hover, .li-accordion-bullets-cornered .panel-title-link:hover, .li-accordion-bullets-round .panel-title-link:hover {
+.li-accordion-bullets .panel-title-link:hover,
+.li-accordion-bullets-cornered .panel-title-link:hover,
+.li-accordion-bullets-round .panel-title-link:hover {
     text-decoration: none;
 }
 
-.li-accordion-bullets .panel-title-link:focus, .li-accordion-bullets-cornered .panel-title-link:focus, .li-accordion-bullets-round .panel-title-link:focus {
+.li-accordion-bullets .panel-title-link:focus,
+.li-accordion-bullets-cornered .panel-title-link:focus,
+.li-accordion-bullets-round .panel-title-link:focus {
     text-decoration: none;
 }
 
-.li-accordion-bullets .panel-title-link-toggle, .li-accordion-bullets-cornered .panel-title-link-toggle, .li-accordion-bullets-round .panel-title-link-toggle {
+.li-accordion-bullets .panel-title-link-toggle,
+.li-accordion-bullets-cornered .panel-title-link-toggle,
+.li-accordion-bullets-round .panel-title-link-toggle {
     font-size: 20px;
     position: absolute;
     right: 10px;
     top: 13px;
 }
 
-.li-accordion-bullets .panel-body, .li-accordion-bullets-cornered .panel-body, .li-accordion-bullets-round .panel-body {
+.li-accordion-bullets .panel-body,
+.li-accordion-bullets-cornered .panel-body,
+.li-accordion-bullets-round .panel-body {
     border-top: none !important;
     padding: 22px;
     border-radius: 3px;
 }
 
-.li-accordion-bullets .panel-body p:last-of-type, .li-accordion-bullets-cornered .panel-body p:last-of-type, .li-accordion-bullets-round .panel-body p:last-of-type {
+.li-accordion-bullets .panel-body p:last-of-type,
+.li-accordion-bullets-cornered .panel-body p:last-of-type,
+.li-accordion-bullets-round .panel-body p:last-of-type {
     margin-bottom: 0;
 }
 
@@ -2470,17 +2585,24 @@ object {
 
 /* Accordion Plus/Minus
 -------------------------------------*/
-.li-accordion-plus-minus, .li-accordion-plus-minus-cornered, .li-accordion-plus-minus-round {
+
+.li-accordion-plus-minus,
+.li-accordion-plus-minus-cornered,
+.li-accordion-plus-minus-round {
     margin-bottom: 0px;
 }
 
-.li-accordion-plus-minus .panel, .li-accordion-plus-minus-cornered .panel, .li-accordion-plus-minus-round .panel {
+.li-accordion-plus-minus .panel,
+.li-accordion-plus-minus-cornered .panel,
+.li-accordion-plus-minus-round .panel {
     border-color: #F0F2F7;
     box-shadow: none;
     border-radius: 5px;
 }
 
-.li-accordion-plus-minus .panel-heading, .li-accordion-plus-minus-cornered .panel-heading, .li-accordion-plus-minus-round .panel-heading {
+.li-accordion-plus-minus .panel-heading,
+.li-accordion-plus-minus-cornered .panel-heading,
+.li-accordion-plus-minus-round .panel-heading {
     background-color: #ffffff;
     color: #2B4269;
     border-color: #F0F2F7;
@@ -2490,31 +2612,43 @@ object {
     border-radius: 4px;
 }
 
-.li-accordion-plus-minus .panel-heading_active, .li-accordion-plus-minus-cornered .panel-heading_active, .li-accordion-plus-minus-round .panel-heading_active {
+.li-accordion-plus-minus .panel-heading_active,
+.li-accordion-plus-minus-cornered .panel-heading_active,
+.li-accordion-plus-minus-round .panel-heading_active {
     background-color: #F8F9FC;
     border-bottom-right-radius: 0;
 }
 
-.li-accordion-plus-minus .panel-title, .li-accordion-plus-minus-cornered .panel-title, .li-accordion-plus-minus-round .panel-title {
+.li-accordion-plus-minus .panel-title,
+.li-accordion-plus-minus-cornered .panel-title,
+.li-accordion-plus-minus-round .panel-title {
     font-size: 16px;
     line-height: normal;
     color: #2B4269;
     margin-left: 58px;
 }
 
-.li-accordion-plus-minus .panel-title-link, .li-accordion-plus-minus-cornered .panel-title-link, .li-accordion-plus-minus-round .panel-title-link {
+.li-accordion-plus-minus .panel-title-link,
+.li-accordion-plus-minus-cornered .panel-title-link,
+.li-accordion-plus-minus-round .panel-title-link {
     color: #2B4269;
 }
 
-.li-accordion-plus-minus .panel-title-link:hover, .li-accordion-plus-minus-cornered .panel-title-link:hover, .li-accordion-plus-minus-round .panel-title-link:hover {
+.li-accordion-plus-minus .panel-title-link:hover,
+.li-accordion-plus-minus-cornered .panel-title-link:hover,
+.li-accordion-plus-minus-round .panel-title-link:hover {
     text-decoration: none;
 }
 
-.li-accordion-plus-minus .panel-title-link:focus, .li-accordion-plus-minus-cornered .panel-title-link:focus, .li-accordion-plus-minus-round .panel-title-link:focus {
+.li-accordion-plus-minus .panel-title-link:focus,
+.li-accordion-plus-minus-cornered .panel-title-link:focus,
+.li-accordion-plus-minus-round .panel-title-link:focus {
     text-decoration: none;
 }
 
-.li-accordion-plus-minus .panel-title-link-toggle, .li-accordion-plus-minus-cornered .panel-title-link-toggle, .li-accordion-plus-minus-round .panel-title-link-toggle {
+.li-accordion-plus-minus .panel-title-link-toggle,
+.li-accordion-plus-minus-cornered .panel-title-link-toggle,
+.li-accordion-plus-minus-round .panel-title-link-toggle {
     float: left;
     background-color: #2B4269;
     position: absolute;
@@ -2530,22 +2664,30 @@ object {
     font-size: 24px;
 }
 
-.li-accordion-plus-minus .panel-title-link-toggle_collapse, .li-accordion-plus-minus-cornered .panel-title-link-toggle_collapse, .li-accordion-plus-minus-round .panel-title-link-toggle_collapse {
+.li-accordion-plus-minus .panel-title-link-toggle_collapse,
+.li-accordion-plus-minus-cornered .panel-title-link-toggle_collapse,
+.li-accordion-plus-minus-round .panel-title-link-toggle_collapse {
     border-bottom-left-radius: 0px;
 }
 
-.li-accordion-plus-minus .panel-collapse, .li-accordion-plus-minus-cornered .panel-collapse, .li-accordion-plus-minus-round .panel-collapse {
+.li-accordion-plus-minus .panel-collapse,
+.li-accordion-plus-minus-cornered .panel-collapse,
+.li-accordion-plus-minus-round .panel-collapse {
     border-top: 1px solid #F0F2F7;
 }
 
-.li-accordion-plus-minus .panel-body, .li-accordion-plus-minus-cornered .panel-body, .li-accordion-plus-minus-round .panel-body {
+.li-accordion-plus-minus .panel-body,
+.li-accordion-plus-minus-cornered .panel-body,
+.li-accordion-plus-minus-round .panel-body {
     border-top: none !important;
     padding: 22px;
     border-radius: 3px;
     background-color: #fff;
 }
 
-.li-accordion-plus-minus .panel-body p:last-of-type, .li-accordion-plus-minus-cornered .panel-body p:last-of-type, .li-accordion-plus-minus-round .panel-body p:last-of-type {
+.li-accordion-plus-minus .panel-body p:last-of-type,
+.li-accordion-plus-minus-cornered .panel-body p:last-of-type,
+.li-accordion-plus-minus-round .panel-body p:last-of-type {
     margin-bottom: 0;
 }
 
@@ -2599,7 +2741,9 @@ object {
 
 /* Accordion Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .li-accordion .panel-heading {
         padding: 10px;
@@ -2621,8 +2765,11 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 08. Feature Icon Text */
+
 /*------------------------------------------------------------------------------------------*/
+
 .feature-icon-text {
     font-size: 16px;
     text-align: center;
@@ -2768,7 +2915,9 @@ object {
 
 /* Feature Icon Text Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .feature-icon-text {
         margin-bottom: 39.375px;
@@ -2839,8 +2988,11 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 09. Form Elements */
+
 /*------------------------------------------------------------------------------------------*/
+
 .form-control {
     border-color: #F0F2F7;
     border-radius: 4px;
@@ -2946,6 +3098,7 @@ object {
 
 /* Select
 -------------------------------------*/
+
 .styled-select {
     position: relative;
 }
@@ -3114,6 +3267,7 @@ object {
 
 /* Input Groups
 -------------------------------------*/
+
 .input-group .form-control:last-child {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -3293,6 +3447,7 @@ object {
 
 /* Addon Colors
 -------------------------------------*/
+
 .addon-green {
     background-color: #32ba5b;
     border-color: #32ba5b !important;
@@ -3428,6 +3583,7 @@ object {
 }
 
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .input-group-xl .input-group-btn .btn {
         height: 50px;
@@ -3444,6 +3600,7 @@ object {
 }
 
 /* Medium devices (desktops, 992px and down) */
+
 @media (max-width: 992px) {
     .input-group-xl .input-group-btn .btn {
         height: 45px;
@@ -3460,6 +3617,7 @@ object {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .input-group-xl .input-group-btn .btn {
         height: 45px;
@@ -3476,8 +3634,11 @@ object {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 10. Headings */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-heading {
     color: #428BFF;
     margin: 0;
@@ -3550,7 +3711,9 @@ h6.li-heading small {
 
 /* Headings Media Queries
 -------------------------------------*/
+
 /* Large devices (desktops, 1200px and up)*/
+
 @media (max-width: 1200px) {
     h1.li-heading {
         font-size: 47.25px;
@@ -3615,7 +3778,9 @@ h6.li-heading small {
 
 /* Headings Media Queries
 -------------------------------------*/
+
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .li-heading {
         margin-bottom: 16.875px;
@@ -3668,12 +3833,17 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 11. Icons */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Icons Mixin
 -------------------------------------*/
+
 /* Icon
 -------------------------------------*/
+
 .li-icon {
     text-align: center;
 }
@@ -3976,9 +4146,16 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 12. Icon List */
+
 /*------------------------------------------------------------------------------------------*/
-.li-list-defaults, .li-alphabetical-list, .li-unordered-list, .li-ordered-list, .li-icon-list {
+
+.li-list-defaults,
+.li-alphabetical-list,
+.li-unordered-list,
+.li-ordered-list,
+.li-icon-list {
     margin: 0;
     padding-left: 0;
     list-style: inside;
@@ -3987,7 +4164,11 @@ h6.li-heading small {
     font-size: 18px;
 }
 
-.li-list-defaults .list-item-content, .li-alphabetical-list .list-item-content, .li-unordered-list .list-item-content, .li-ordered-list .list-item-content, .li-icon-list .list-item-content {
+.li-list-defaults .list-item-content,
+.li-alphabetical-list .list-item-content,
+.li-unordered-list .list-item-content,
+.li-ordered-list .list-item-content,
+.li-icon-list .list-item-content {
     color: #575756;
     font-size: 16px;
     padding-left: 5px;
@@ -4023,20 +4204,32 @@ h6.li-heading small {
 
 /* Icon List Media Queries
 -------------------------------------*/
+
 @media (max-width: 1200px) {
-    .li-list-defaults, .li-alphabetical-list, .li-unordered-list, .li-ordered-list, .li-icon-list {
+    .li-list-defaults,
+    .li-alphabetical-list,
+    .li-unordered-list,
+    .li-ordered-list,
+    .li-icon-list {
         font-size: 16px;
         line-height: 34px;
     }
 
-    .li-list-defaults .list-item-content, .li-alphabetical-list .list-item-content, .li-unordered-list .list-item-content, .li-ordered-list .list-item-content, .li-icon-list .list-item-content {
+    .li-list-defaults .list-item-content,
+    .li-alphabetical-list .list-item-content,
+    .li-unordered-list .list-item-content,
+    .li-ordered-list .list-item-content,
+    .li-icon-list .list-item-content {
         font-size: 14px;
     }
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 13. Image Testimonial Slider */
+
 /*------------------------------------------------------------------------------------------*/
+
 .image-testimonial-slider {
     padding-bottom: 105px;
 }
@@ -4136,7 +4329,9 @@ h6.li-heading small {
 
 /* Image Testimonial Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .image-testimonial-slider {
         padding-bottom: 91.875px;
@@ -4200,6 +4395,7 @@ h6.li-heading small {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .image-testimonial-slider {
         padding-bottom: 80px;
@@ -4238,8 +4434,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 14. Image */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-image figure {
     background-color: transparent;
 }
@@ -4259,8 +4458,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 15. Modal */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-modal .container {
     width: 1170px;
     max-width: 100%;
@@ -4327,13 +4529,14 @@ h6.li-heading small {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .li-modal {
         padding: 0 !important;
     }
 
     .li-modal .container,
-  .li-modal .container-fluid {
+    .li-modal .container-fluid {
         padding: 0;
     }
 
@@ -4356,8 +4559,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 16. Header */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-header {
     background-color: #ffffff;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
@@ -4396,6 +4602,7 @@ h6.li-heading small {
 
 /* Header Style 1
 -------------------------------------*/
+
 .header-fixed-style-1 {
     padding-top: 80px;
 }
@@ -4418,6 +4625,7 @@ h6.li-heading small {
 
 /* Header Style 2
 -------------------------------------*/
+
 .header-fixed-style-2 {
     padding-top: 180px;
 }
@@ -4470,7 +4678,9 @@ h6.li-heading small {
 
 /* Header Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .li-header.header-style-2 .header-top .container {
         width: 100%;
@@ -4478,6 +4688,7 @@ h6.li-heading small {
 }
 
 /* Medium devices (desktops, 992px and down) */
+
 @media (max-width: 992px) {
     .header-fixed-style-1-topbar {
         padding-top: 80px;
@@ -4499,8 +4710,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 17. Number Counter */
+
 /*------------------------------------------------------------------------------------------*/
+
 .number-counter {
     text-align: center;
     margin-bottom: 20px;
@@ -4527,7 +4741,9 @@ h6.li-heading small {
 
 /* Number Counter Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .number-counter {
         margin-bottom: 17.5px;
@@ -4548,8 +4764,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 18. Person Profile */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-person-profile .profile-image {
     float: left;
 }
@@ -4710,7 +4929,8 @@ h6.li-heading small {
     overflow: hidden;
 }
 
-.li-person-profile-image.profile-image_rounded .profile-image img, .li-person-profile-image.profile-image_rounded .profile-content {
+.li-person-profile-image.profile-image_rounded .profile-image img,
+.li-person-profile-image.profile-image_rounded .profile-content {
     border-radius: 5px;
 }
 
@@ -4874,7 +5094,9 @@ h6.li-heading small {
 
 /* Person Profile Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .li-person-profile {
         margin-bottom: 74.375px;
@@ -4926,6 +5148,7 @@ h6.li-heading small {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .li-person-profile {
         margin-top: 0;
@@ -4960,8 +5183,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 19. Pricing Table Simple */
+
 /*------------------------------------------------------------------------------------------*/
+
 .pricing-table {
     text-align: center;
 }
@@ -5033,7 +5259,9 @@ h6.li-heading small {
 
 /* Pricing Table Simple Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .pricing-table {
         font-size: 14px;
@@ -5093,6 +5321,7 @@ h6.li-heading small {
 }
 
 /* Medium devices (desktops, 992px and down) */
+
 @media (max-width: 992px) {
     .pricing-table .pricing-table-col {
         display: block;
@@ -5110,8 +5339,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 20. Rating Slider */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-rating-slider {
     text-align: center;
     padding-bottom: 45px;
@@ -5173,9 +5405,13 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 21. Side Icon Text */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-side-icon-text .li-side-icon-text-icon {
     width: 46px;
     height: 46px;
@@ -5237,7 +5473,8 @@ h6.li-heading small {
     font-size: 24px;
 }
 
-.li-side-icon-text .li-side-icon-text-icon_hexagon i, .li-side-icon-text .li-side-icon-text-icon_hexagon span {
+.li-side-icon-text .li-side-icon-text-icon_hexagon i,
+.li-side-icon-text .li-side-icon-text-icon_hexagon span {
     position: absolute;
     left: 0;
     z-index: 1;
@@ -5245,7 +5482,8 @@ h6.li-heading small {
     height: 45px;
 }
 
-.li-side-icon-text .li-side-icon-text-icon_hexagon:before, .li-side-icon-text .li-side-icon-text-icon_hexagon:after {
+.li-side-icon-text .li-side-icon-text-icon_hexagon:before,
+.li-side-icon-text .li-side-icon-text-icon_hexagon:after {
     content: "";
     position: absolute;
     left: 0;
@@ -5286,13 +5524,15 @@ h6.li-heading small {
     border-top: none;
 }
 
-.li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline i, .li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline span {
+.li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline i,
+.li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline span {
     top: 1px;
     width: 43px;
     height: 28px;
 }
 
-.li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline:before, .li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline:after {
+.li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline:before,
+.li-side-icon-text .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline:after {
     width: 32.3px;
     height: 32.3px;
     transform: scaleY(0.5774) rotate(-45deg);
@@ -5363,8 +5603,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 22. Tabs */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-tabs .nav-tabs {
     border-bottom: none;
 }
@@ -5455,7 +5698,8 @@ h6.li-heading small {
     color: #ffffff;
 }
 
-.li-tabs .nav-tabs li:not([class='active']):hover:before, .li-tabs .nav-tabs li:not([class='active']):hover:after {
+.li-tabs .nav-tabs li:not([class='active']):hover:before,
+.li-tabs .nav-tabs li:not([class='active']):hover:after {
     background-color: #428BFF;
 }
 
@@ -5603,15 +5847,21 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 23. Textblock */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-textblock p:last-of-type {
     margin-bottom: 0;
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 24. Video */
+
 /*------------------------------------------------------------------------------------------*/
+
 .lp-video.embed-responsive.iframe-width-90 iframe {
     width: 90%;
     height: 90%;
@@ -5659,6 +5909,7 @@ h6.li-heading small {
 
 /* Video Media Queries
 -------------------------------------*/
+
 @media (max-width: 480px) {
     .embed-responsive {
         overflow: visible;
@@ -5666,8 +5917,11 @@ h6.li-heading small {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 25. Contactform 7 */
+
 /*------------------------------------------------------------------------------------------*/
+
 div.wpcf7 br {
     margin: 0;
     display: block;
@@ -5932,10 +6186,13 @@ div.wpcf7 .placeheld {
     border: 1px solid #f55753;
 }
 
-.wpcf7-defaults, .wpcf7-text,
+.wpcf7-defaults,
+.wpcf7-text,
 .wpcf7-date,
 .wpcf7-number,
-.wpcf7-textarea, .wpcf7-select, .wpcf7-quiz {
+.wpcf7-textarea,
+.wpcf7-select,
+.wpcf7-quiz {
     width: 100%;
     height: 45px;
     border: 1px solid #e5e9ec;
@@ -5943,10 +6200,13 @@ div.wpcf7 .placeheld {
     border-radius: 4px;
 }
 
-.wpcf7-defaults:focus, .wpcf7-text:focus,
-  .wpcf7-date:focus,
-  .wpcf7-number:focus,
-  .wpcf7-textarea:focus, .wpcf7-select:focus, .wpcf7-quiz:focus {
+.wpcf7-defaults:focus,
+.wpcf7-text:focus,
+.wpcf7-date:focus,
+.wpcf7-number:focus,
+.wpcf7-textarea:focus,
+.wpcf7-select:focus,
+.wpcf7-quiz:focus {
     background-color: #eeeeee;
     box-shadow: none;
     border-color: #428BFF;
@@ -5962,15 +6222,18 @@ div.wpcf7 .placeheld {
     background-color: #fff;
 }
 
-.wpcf7-radio span.wpcf7-list-item.first, .wpcf7-checkbox span.wpcf7-list-item.first {
+.wpcf7-radio span.wpcf7-list-item.first,
+.wpcf7-checkbox span.wpcf7-list-item.first {
     margin-left: 0;
 }
 
-.wpcf7-radio .wpcf7-list-item, .wpcf7-checkbox .wpcf7-list-item {
+.wpcf7-radio .wpcf7-list-item,
+.wpcf7-checkbox .wpcf7-list-item {
     margin-right: 10px;
 }
 
-.wpcf7-radio .wpcf7-list-item-label, .wpcf7-checkbox .wpcf7-list-item-label {
+.wpcf7-radio .wpcf7-list-item-label,
+.wpcf7-checkbox .wpcf7-list-item-label {
     font-weight: normal;
     margin: 0 5px;
 }
@@ -6035,8 +6298,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 26. Location Map */
+
 /*------------------------------------------------------------------------------------------*/
+
 .location-map {
     position: relative;
     height: 500px;
@@ -6091,7 +6357,9 @@ div.wpcf7 .placeheld {
 
 /* Location Map Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .location-map .location-map-address {
         max-width: 970px;
@@ -6131,9 +6399,13 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 27. Icon text Box */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-icon-text-box {
     border-bottom: 5px solid rgba(66, 139, 255, 0.4);
     margin-bottom: 30px;
@@ -6190,7 +6462,9 @@ div.wpcf7 .placeheld {
 
 /* Icon Text Box Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .li-icon-text-box .li-icon-text-box-title {
         font-size: 18px;
@@ -6199,9 +6473,13 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 28. Countdown */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-countdown {
     color: #428BFF;
 }
@@ -6250,7 +6528,9 @@ div.wpcf7 .placeheld {
 
 /* Countdown Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .li-countdown .li-countdown-block {
         margin-right: 15px;
@@ -6279,6 +6559,7 @@ div.wpcf7 .placeheld {
 
 /* Headings Media Queries
 -------------------------------------*/
+
 @media (max-width: 992px) {
     .li-countdown .li-countdown-block {
         margin-right: 10px;
@@ -6315,9 +6596,13 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 29. Global Social Icons Widget */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-global-social-icons-widget a {
     color: #fff;
     width: 35px;
@@ -6402,11 +6687,17 @@ div.wpcf7 .placeheld {
 
 /* Global Social Icon Widget Media Queries
 -------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 30. Responsive Helper */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 .content-left-lg {
     text-align: left !important;
 }
@@ -6440,6 +6731,7 @@ div.wpcf7 .placeheld {
 }
 
 /* Medium devices (desktops, 992px and down) */
+
 @media (max-width: 992px) {
     .content-left-md {
         text-align: left !important;
@@ -6475,6 +6767,7 @@ div.wpcf7 .placeheld {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .content-left-sm {
         text-align: left !important;
@@ -6510,6 +6803,7 @@ div.wpcf7 .placeheld {
 }
 
 /* Extra Small devices (480px and down) */
+
 @media (max-width: 480px) {
     .content-left-xs {
         text-align: left !important;
@@ -6545,9 +6839,13 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 31. Top Widget Bar */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-topbar {
     width: 100%;
     min-height: 47px;
@@ -6609,7 +6907,9 @@ div.wpcf7 .placeheld {
 
 /* Top Widget Bar Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 1200px) {
     .li-topbar .social-icons {
         float: left;
@@ -6631,9 +6931,13 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------------------------------*/
+
 /* 32. Mega Main Menu */
+
 /*------------------------------------------------------------------------------------------*/
+
 #mega_main_menu .menu_holder {
     padding: 20px 0 0 0;
 }
@@ -6709,7 +7013,9 @@ div.wpcf7 .placeheld {
 
 /* Mega Main Menu Media Queries
 -------------------------------------*/
+
 /* Desktops devices (desktops, 1200px and down)*/
+
 @media (max-width: 959px) {
     #mega_main_menu .menu_holder {
         padding-bottom: 20px;
@@ -6726,8 +7032,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 33. Group List */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-list-group {
     margin: 0;
 }
@@ -6749,10 +7058,14 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 34. Alert */
+
 /*------------------------------------------------------------------------------------------*/
+
 /* Alert
 -------------------------------------*/
+
 .li-alert {
     margin-bottom: 0;
     padding: 11px 10px 8px 10px;
@@ -6821,6 +7134,7 @@ div.wpcf7 .placeheld {
 
 /* Alert Light Color
 -------------------------------------*/
+
 .li-alert_light-color {
     margin-bottom: 0;
     padding: 0px;
@@ -6840,7 +7154,8 @@ div.wpcf7 .placeheld {
     margin-right: 20px;
 }
 
-.li-alert_light-color .alert-icon span, .li-alert_light-color .alert-icon i {
+.li-alert_light-color .alert-icon span,
+.li-alert_light-color .alert-icon i {
     line-height: 72px;
 }
 
@@ -6915,6 +7230,7 @@ div.wpcf7 .placeheld {
 
 /* Alert Solid Color
 -------------------------------------*/
+
 .li-alert_solid-color {
     margin-bottom: 0;
     padding: 0px;
@@ -6931,7 +7247,8 @@ div.wpcf7 .placeheld {
     color: #ffffff;
 }
 
-.li-alert_solid-color .alert-icon span, .li-alert_solid-color .alert-icon i {
+.li-alert_solid-color .alert-icon span,
+.li-alert_solid-color .alert-icon i {
     line-height: 72px;
 }
 
@@ -6971,8 +7288,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 35. Divider */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-divider_line {
     border-bottom: 1px solid #F0F2F7;
     display: block;
@@ -7057,8 +7377,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 36. Image Gallery */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -7127,6 +7450,7 @@ div.wpcf7 .placeheld {
 
 /* Image Gallery Media Queries
 -------------------------------------*/
+
 @media (max-width: 992px) {
     .li-image-gallery .image-gallery-wrapper {
         width: calc(100% / 3) !important;
@@ -7140,8 +7464,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 37. Progress Bar */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-progressbar-bar {
     width: 100%;
     position: relative;
@@ -7216,14 +7543,18 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 38. Portfolio */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-portfolio {
     border: 1px solid #F0F2F7;
 }
 
 /* Portfolio Small
 -------------------------------------*/
+
 .portfolio_small .portfolio_meta {
     position: relative;
     overflow: hidden;
@@ -7305,6 +7636,7 @@ div.wpcf7 .placeheld {
 
 /* Portfolio Large
 -------------------------------------*/
+
 .portfolio_large {
     display: flex;
     align-items: stretch;
@@ -7377,7 +7709,9 @@ div.wpcf7 .placeheld {
 
 /* Portfolio Media Queries
 -------------------------------------*/
+
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
     .portfolio_large {
         display: block;
@@ -7399,8 +7733,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 39. Mobil Contact Bar */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-mobile-contact-bar {
     height: 60px;
 }
@@ -7436,8 +7773,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 40. WooCommerce */
+
 /*------------------------------------------------------------------------------------------*/
+
 .woocommerce .woocommerce-breadcrumb {
     float: right;
     font-size: 14px;
@@ -7810,7 +8150,8 @@ div.wpcf7 .placeheld {
     background-color: #32ba5b;
 }
 
-.woocommerce table.cart .button, .woocommerce table.cart input.button:disabled[disabled] {
+.woocommerce table.cart .button,
+.woocommerce table.cart input.button:disabled[disabled] {
     float: none;
     height: 45px;
     background: #428BFF;
@@ -8050,7 +8391,7 @@ div.wpcf7 .placeheld {
 }
 
 .woocommerce .quantity input[type=number]::-webkit-inner-spin-button,
-  .woocommerce .quantity input[type=number]::-webkit-outer-spin-button {
+.woocommerce .quantity input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -8248,8 +8589,8 @@ div.wpcf7 .placeheld {
 }
 
 .woocommerce .widget_products .product_list_widget li:hover,
-  .woocommerce .widget_top_rated_products .product_list_widget li:hover,
-  .woocommerce .widget_recently_viewed_products .product_list_widget li:hover {
+.woocommerce .widget_top_rated_products .product_list_widget li:hover,
+.woocommerce .widget_recently_viewed_products .product_list_widget li:hover {
     padding-left: 0;
     background-color: transparent;
 }
@@ -8261,8 +8602,8 @@ div.wpcf7 .placeheld {
 }
 
 .woocommerce .widget_products .product_list_widget li a:hover,
-  .woocommerce .widget_top_rated_products .product_list_widget li a:hover,
-  .woocommerce .widget_recently_viewed_products .product_list_widget li a:hover {
+.woocommerce .widget_top_rated_products .product_list_widget li a:hover,
+.woocommerce .widget_recently_viewed_products .product_list_widget li a:hover {
     color: #428BFF;
 }
 
@@ -8309,8 +8650,8 @@ div.wpcf7 .placeheld {
 }
 
 .woocommerce .widget_products .product_list_widget li ins .woocommerce-Price-amount,
-  .woocommerce .widget_top_rated_products .product_list_widget li ins .woocommerce-Price-amount,
-  .woocommerce .widget_recently_viewed_products .product_list_widget li ins .woocommerce-Price-amount {
+.woocommerce .widget_top_rated_products .product_list_widget li ins .woocommerce-Price-amount,
+.woocommerce .widget_recently_viewed_products .product_list_widget li ins .woocommerce-Price-amount {
     font-size: 14px;
     color: #E4243F;
     text-decoration: none;
@@ -8358,8 +8699,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 41. Textblock */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-review-block {
     display: flex;
 }
@@ -8402,8 +8746,11 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* 42. Pricing Table Advanced */
+
 /*------------------------------------------------------------------------------------------*/
+
 .li-pricing-table-advanced {
     display: flex;
     justify-content: center;
@@ -8550,8 +8897,10 @@ div.wpcf7 .placeheld {
 }
 
 /*------------------------------------------------------------------------------------------*/
+
 /* Font Weights
 -------------------------------------*/
+
 .fw-light {
     font-weight: 300;
 }
@@ -8566,6 +8915,7 @@ div.wpcf7 .placeheld {
 
 /* Alignments
 -------------------------------------*/
+
 .left {
     text-align: left;
 }
@@ -8603,6 +8953,7 @@ div.wpcf7 .placeheld {
 
 /* Margins
 -------------------------------------*/
+
 .mt5 {
     margin-top: 5px;
 }
@@ -8685,6 +9036,7 @@ div.wpcf7 .placeheld {
 
 /* Paddings
 -------------------------------------*/
+
 .pt5 {
     padding-top: 5px;
 }
@@ -8767,6 +9119,7 @@ div.wpcf7 .placeheld {
 
 /* Columns Gap
 -------------------------------------*/
+
 .cg5 div[class^="col-"] {
     padding: 0 5px;
 }
@@ -8793,6 +9146,7 @@ div.wpcf7 .placeheld {
 
 /* Hidden Elements
 -------------------------------------*/
+
 .of-hidden {
     overflow: hidden;
 }
@@ -8803,7 +9157,9 @@ div.wpcf7 .placeheld {
 
 /* Accessibility
 -------------------------------------*/
+
 /* Text meant only for screen readers. */
+
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
@@ -8830,12 +9186,110 @@ div.wpcf7 .placeheld {
     top: 5px;
     width: auto;
     z-index: 100000;
-  /* Above WP toolbar. */
+    /* Above WP toolbar. */
 }
 
+
+
+
+
+
+
+.dt-sc-image-caption.dt-sc-title-border {
+    overflow: hidden;
+}
+
+.dt-sc-image-caption.dt-sc-title-border {
+    box-shadow: 0px 0px 10px 3px rgba(239, 239, 239, 1);
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    -ms-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+
+.dt-sc-image-wrapper img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    -ms-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+.dt-sc-image-caption.dt-sc-title-border:hover .dt-sc-image-wrapper img {
+	transform: scale(1.1) translatey(12px);
+	-moz-transform: scale(1.1) translatey(12px);
+	-ms-transform: scale(1.1) translatey(12px);
+	-webkit-transform: scale(1.1) translatey(12px);
+}
+.dt-sc-image-caption .dt-sc-image-title h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	position: relative;
+	top: -2px;
+}
+.dt-sc-image-caption.dt-sc-title-border .dt-sc-image-title h3 {
+	font-weight: bold;
+	font-size: 22px;
+}
+.dt-sc-image-caption.dt-sc-title-border .dt-sc-image-title h3::after {
+	position: absolute;
+	content: "";
+	width: 40px;
+	height: 3px;
+	left: 0;
+	bottom: -12px;
+    background: #fdc300;
+}
+
+.dt-sc-image-caption .dt-sc-image-title {
+	margin-bottom: 26px;
+	display: inline-block;
+	width: 100%;
+}
+.dt-sc-image-caption .dt-sc-image-content {
+	display: inline-block;
+	clear: both;
+	margin: 0;
+	padding: 40px 45px 30px;
+}
+.blog-entry .entry-details .dt-sc-button.transparent:hover, .dt-sc-image-caption:hover .dt-sc-image-content .dt-sc-button.transparent {
+	color: #1874c1;
+}
+..dt-sc-image-content .dt-sc-button.transparent span.fa{
+    transition: .9s;
+}
+.dt-sc-image-caption:hover .dt-sc-image-content .dt-sc-button.transparent span.fa {
+	margin-left: 10px;
+    transition: .9s;
+}
+
+.dt-sc-button {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 8px 15px;
+	line-height: normal;
+	display: inline-block;
+	margin: 10px 0px 0px;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	z-index: 1;
+    
+}
+
+.dt-sc-image-caption{
+    margin-bottom: 30px;
+}
+
+
+
 /* Medium devices (desktops, 992px and down) */
+
 @media (max-width: 992px) {
-  /* Display block on Small devices
+    /* Display block on Small devices
   -------------------------------------*/
     .block-md {
         display: block;
@@ -8848,14 +9302,15 @@ div.wpcf7 .placeheld {
 }
 
 /* Small devices (768px and down) */
+
 @media (max-width: 768px) {
-  /* Display block on Small devices
+    /* Display block on Small devices
   -------------------------------------*/
     .block-sm {
         display: block;
         width: 100%;
     }
-  /* Text Center on Small devices
+    /* Text Center on Small devices
   -------------------------------------*/
     .t-center-sm {
         text-align: center;
