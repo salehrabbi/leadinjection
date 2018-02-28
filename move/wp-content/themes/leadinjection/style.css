@@ -9397,6 +9397,89 @@ div.wpcf7 .placeheld {
 	background: #000000;
 	border: 6px solid #FFAD1E;
 }
+
+
+.about_area {
+	background: #f5f7f9;
+	padding: 100px 0;
+}
+.single_title {
+	font-size: 30px;
+	font-family: roboto,sans-serif;
+	font-weight: 700;
+	color: #59595b;
+	text-transform: uppercase;
+	padding-bottom: 48px;
+}
+.about_left_text p {
+	font-size: 16px;
+	line-height: 30px;
+	font-family: roboto,sans-serif;
+	font-weight: 400;
+	color: #59595b;
+	padding-bottom: 30px;
+}
+a.more_btn {
+	display: inline-block;
+	padding: 0 32px;
+	background: transparent;
+	border: 1px solid #2761d8;
+	line-height: 50px;
+	border-radius: 5px;
+	color: #2761d8;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: roboto,sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	-webkit-transition: all 300ms linear 0s;
+	-o-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+	z-index: 2;
+    text-decoration: none;
+}
+.more_btn::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: #2761d8;
+	height: 280px;
+	width: 330px;
+	border-radius: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: 100%;
+	-webkit-transition: all .7s;
+	-o-transition: all .7s;
+	transition: all .7s;
+	z-index: -1;
+}
+.more_btn i {
+	padding-left: 10px;
+}
+.more_btn:hover, .more_btn:focus {
+	color: #fff;
+	border: 1px solid #2761d8;
+}
+.more_btn:hover::before, .more_btn:focus::before {
+	bottom: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Medium devices (desktops, 992px and down) */
 
 @media (max-width: 992px) {
