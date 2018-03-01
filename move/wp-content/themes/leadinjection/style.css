@@ -7029,6 +7029,14 @@ div.wpcf7 .placeheld {
         padding: 5px !important;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
     }
+    #mega_main_menu li.default_dropdown > ul {
+        position: static !important;
+        width: 100% !important;
+        display: none;
+    }
+    #mega_main_menu li.default_dropdown.current > ul{
+        display: block;
+    }
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -9239,6 +9247,7 @@ div.wpcf7 .placeheld {
 .dt-sc-image-caption.dt-sc-title-border .dt-sc-image-title h3 {
     font-weight: bold;
     font-size: 22px;
+    color: #253C58;
 }
 
 .dt-sc-image-caption.dt-sc-title-border .dt-sc-image-title h3::after {
@@ -9424,8 +9433,8 @@ div.wpcf7 .placeheld {
     font-size: 30px;
     font-family: roboto, sans-serif;
     font-weight: 700;
-    color: #59595b;
-    text-transform: uppercase;
+    color: #253C58;
+    text-transform: capitalize;
     padding-bottom: 48px;
 }
 
@@ -9511,73 +9520,124 @@ a.more_btn {
 }
 
 .li-progressbar-half-round .progressbar-half-round-value {
-	top: 38% !important;
-	font-size: 30px;
-	color: #1874c1 !important;
+    top: 38% !important;
+    font-size: 30px;
+    color: #1874c1 !important;
 }
+
 .slider-button {
     display: block;
 }
 
-.slider-button a{
+.slider-button a {
     display: inline-block;
-    font-size: 16px !important;
+    font-size: 17px !important;
     background: #ffbf00;
     white-space: nowrap;
-    padding: 15px 30px !important;
+    padding: 7px 25px !important;
     color: #fff;
     margin-top: 30px !important;
     text-decoration: none;
+    font-weight: 700 !important;
 }
+
 a.dt-sc-button {
-	padding-left: 0;
-	font-weight: 700;
+    padding-left: 0;
+    font-weight: 700;
     text-decoration: none;
 }
-.dt-sc-button span{
+
+.dt-sc-button span {
     padding-left: 5px;
     transition: .5s;
 }
+
 .dt-sc-image-caption.dt-sc-title-border:hover {
-	box-shadow: 0 0 10px 3px rgba(24,116,193,.2);
+    box-shadow: 0 0 10px 3px rgba(24, 116, 193, .2);
 }
+
 .blog-content-home .vc_column-inner {
     height: 100%;
 }
-.blog-content-home .vc_column-inner .wpb_wrapper{
+
+.blog-content-home .vc_column-inner .wpb_wrapper {
     height: 100%;
     padding-bottom: 30px;
 }
+
 .dt-sc-image-caption {
-	margin-bottom: 0;
-	height: 100%;
+    margin-bottom: 0;
+    height: 100%;
 }
 
-.footer-menu{
+.footer-menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.footer-menu li{
+
+.footer-menu li {
     display: inline-block;
     padding: 0 5px;
     border-right: 1px solid #ffbf00;
     line-height: 1;
 }
-.footer-menu li:last-child{
+
+.footer-menu li:last-child {
     padding-right: 0;
     border: none;
-    
+
 }
 
-#newsletter .slider-button a{
+#newsletter .slider-button a {
     padding: 8px 35px !important;
     margin-right: 30px;
     margin-top: 0 !important;
 }
-#newsletter .slider-button{
+
+#newsletter .slider-button {
     display: inline-block;
 }
+
+#mega_main_menu a[href] {
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    line-height: 1;
+    padding: 15px 20px;
+    text-decoration: none;
+    transform: .3s;
+
+}
+
+#mega_main_menu a[href]:hover {
+    color: #ffbf00;
+}
+
+#mega_main_menu li.default_dropdown > ul {
+    position: absolute;
+    top: 160% !important;
+    width: 250px;
+    background: #fff;
+    padding: 10px 0;
+    transition: .3s;
+    opacity: 0;
+    z-index: -1;
+}
+
+
+
+#mega_main_menu li.default_dropdown.current > ul {
+    top: 101% !important;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+
+
+
+
 
 
 /* Medium devices (desktops, 992px and down) */

@@ -22,7 +22,9 @@
             $(this).remove();
         });
     });
-
+		$('.default_dropdown').on('click', function(){
+			$(this).toggleClass('current');
+		});
 
     // Scroll To Animation
     //-------------------------------------------------------------------------------
